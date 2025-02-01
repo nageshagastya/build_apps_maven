@@ -1,7 +1,5 @@
 pipeline{
-	agent {
-  		label 'Jenkins_slave'
-	}
+	agent any
 
 	
 	tools {

@@ -5,7 +5,6 @@ pipeline{
       		jdk 'JDK17'
  	 }
  
-	
 	stages{
 			stage('Compile'){
 			steps{
